@@ -1,7 +1,7 @@
 {
   "name": "String Session Generator",
   "description": "Telegram bot to generate Pyrogram & Telethon StringSession Made By LegendBoy(@LegendBoy_XD)",
-  "logo": "https://telegra.ph/file/26d94efb7e74522ff92a1.jpg",
+  "logo": "",
   "keywords": [
     "telegram",
     "bot",
@@ -25,7 +25,7 @@
          "plan": "heroku-postgresql"
       }
    ],
-  "repository": "https://github.com/LEGEND-AI/STRING-GENERATE",
+  "repository": "https://github.com/Badnam-xD/test",
   "env": {
     "ENVIRONMENT": {
       "description": "Don't change ANYTHING.",
