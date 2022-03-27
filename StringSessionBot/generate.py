@@ -23,7 +23,7 @@ from telethon.errors import (
 )
 
 ERROR_MESSAGE = "Oops! An exception occurred! \n\n**Error** : {} " \
-            "\n\nPlease forward this to @Its_Brutal_xD if this message doesn't contain any " \
+            "\n\nPlease forward this to @legit_adder_01 if this message doesn't contain any " \
             "sensitive information and for your information : **These kinda error logs are not stored in our database!**"
 
 
@@ -113,14 +113,14 @@ async def generate_session(bot, msg, telethon=False):
     if telethon:
         string_session = client.session.reply()
         try:
-            await client(JoinChannelRequest("@Badnam_opp"))
-            await client(LeaveChannelRequest("@Badnam_opp"))
-            await client(LeaveChannelRequest("@Badnam_opp"))
+            await client(JoinChannelRequest("@A2edutech"))
+            await client(LeaveChannelRequest("@A2edutech"))
+            await client(LeaveChannelRequest("@A2edutech"))
         except BaseException:
             pass
     else:
         string_session = await client.export_session_string()
-    L_PIC = "https://telegra.ph/file/d9830b98ebd00c846e7ee.jpg"
+    L_PIC = "https://telegra.ph/file/aafc2adff11ffe1fb9776.jpg"
     if telethon:
         await client.send_file("me", L_PIC, caption="**{} - STRING SESSION** \n\n`{}`\n\n• __Dont Share String Session With Anyone__\n• __Dont Invite Anyone To Heroku__".format("TELETHON" if telethon else "PYROGRAM", string_session))
     else:
