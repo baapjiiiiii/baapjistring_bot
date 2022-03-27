@@ -22,18 +22,18 @@ You can use me to generate pyrogram and telethon string session. Use the below b
     ]
 
     support_button = [
-        [InlineKeyboardButton("🖕 Support 🖕", url="https://t.me/Badnam_opp")]
+        [InlineKeyboardButton("🖕 Support 🖕", url="https://t.me/Baapjiiiiiiiiii")]
     ]
 
     # Rest Buttons
     buttons = [
         [InlineKeyboardButton("🔥 Generating Session 🔥", callback_data="generate")],
-        [InlineKeyboardButton("👨‍💻 Repo 👨‍💻", url="Brazzers.com")],
+        [InlineKeyboardButton("👨‍💻 Repo subscribe 🔥 and come to get repo ❣️ 👨‍💻", url="https://youtube.com/channel/UCE5jPA5zAKw37gM7tptdJew")],
         [
             InlineKeyboardButton("How to Use ❔", callback_data="help"),
             InlineKeyboardButton(" About", callback_data="about")
         ],
-        [InlineKeyboardButton("🇮🇳 Owner 🇮🇳", url="t.me/Its_Brutal_xD")],
+        [InlineKeyboardButton("🇮🇳 Owner 🇮🇳", url="t.me/legit_adder_01")],
     ]
 
     # Help Message
@@ -53,5 +53,5 @@ A telegram bot to generate pyrogram and telethon string session...
 [Telethon](docs.telethon.org)
 
 Language : [Python](www.python.org)
-            **Regarding ~ **@Its_Brutal_xD
+            **Regarding ~ **@legit_adder_01
 """
